@@ -9,20 +9,20 @@
 
 int main(void)
 {
-	int c = 0;
+	int d = 0;
 
-	while (c <= '9')
-	{
-		putchar(c);
-		c++;
-	}
-
-	char d = 'a';
-
-	while (d <= 'f')
+	while (d <= '9')
 	{
 		putchar(d);
 		d++;
+	}
+
+	char c = 'a';
+
+	while (c <= 'f')
+	{
+		putchar(c);
+		c++;
 	}
 
 	putchar('\n');
