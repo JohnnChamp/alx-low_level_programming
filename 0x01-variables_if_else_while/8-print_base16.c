@@ -9,6 +9,8 @@
 
 int main(void)
 {
+	char letter;
+
 	int d = '0';
 
 	while (d <= '9')
@@ -17,13 +19,8 @@ int main(void)
 		d++;
 	}
 
-	char c = 'a';
-
-	while (c <= 'f')
-	{
-		putchar(c);
-		c++;
-	}
+	for (letter = 'a'; letter <= 'f'; letter++)
+		putchar(letter);
 
 	putchar('\n');
 	return (0);
