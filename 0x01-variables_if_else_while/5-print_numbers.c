@@ -3,7 +3,7 @@
 /**
  * main - main block
  * Description: Prints all single digit numbers of base 10 starting from 0,
- * only using putchar and without char variables.
+ * only using putchar.
  * Return: 0
  */
 
@@ -11,9 +11,9 @@ int main(void)
 {
 	int c = 0;
 
-	while (c < 10)
+	while (c <= '9')
 	{
-		putchar(48 + c);
+		putchar(c);
 		c++;
 	}
 
