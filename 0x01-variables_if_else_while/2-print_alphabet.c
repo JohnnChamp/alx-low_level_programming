@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - main block
- * Description: Get a random number and check its last digit, compare it with 5
+ * Description: print the alphabet in lowercase, followed by a new line
  * Return: 0
  */
 
