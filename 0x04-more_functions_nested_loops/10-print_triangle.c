@@ -7,7 +7,6 @@
  */
 
 void print_triangle(int size)
-
 {
 	int i = 1, ii;
 
@@ -25,6 +24,7 @@ void print_triangle(int size)
 			_putchar('#');
 			ii++;
 		}
+
 		_putchar('\n')
 		i++;
 	}
